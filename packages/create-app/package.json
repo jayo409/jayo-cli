@@ -1,6 +1,6 @@
 {
   "name": "@jayo-cli/create-app",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "./lib/index.js",
   "scripts": {
@@ -16,5 +16,5 @@
     "chalk": "4.1.2",
     "validate-npm-package-name": "^5.0.0"
   },
-  "gitHead": "2fb8d60a734b5bd193170ecff1516f8c0f8776ff"
+  "gitHead": "546cad8581dcb561b2dc691ff790bca02e8c23cf"
 }

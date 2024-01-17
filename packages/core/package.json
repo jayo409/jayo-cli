@@ -1,6 +1,6 @@
 {
   "name": "@jayo-cli/core",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "bin": {
@@ -15,5 +15,5 @@
   "dependencies": {
     "commander": "^11.1.0"
   },
-  "gitHead": "2fb8d60a734b5bd193170ecff1516f8c0f8776ff"
+  "gitHead": "546cad8581dcb561b2dc691ff790bca02e8c23cf"
 }
