@@ -8,12 +8,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "engines": {
     "node": ">=16.0.0"
   },
   "dependencies": {
     "chalk": "4.1.2",
     "validate-npm-package-name": "^5.0.0"
-  }
+  },
+  "gitHead": "1a546f24297cf3579dd6fa59b7cd7340cb558cbb"
 }
