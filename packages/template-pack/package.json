@@ -1,6 +1,6 @@
 {
   "name": "@jayo-cli/template-pack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -9,5 +9,5 @@
   "keywords": [],
   "author": "",
   "license": "MIT",
-  "gitHead": "1a546f24297cf3579dd6fa59b7cd7340cb558cbb"
+  "gitHead": "2fb8d60a734b5bd193170ecff1516f8c0f8776ff"
 }
