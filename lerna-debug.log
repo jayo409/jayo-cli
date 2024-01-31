@@ -1,0 +1,8 @@
+16 error Error: Command failed with exit code 1: git remote update
+16 error fatal: unable to access 'https://github.com/jayo409/jayo-cli.git/': Failed to connect to github.com port 443 after 75025 ms: Couldn't connect to server
+16 error     at makeError (/Users/wujiayong/Library/pnpm/global/5/.pnpm/execa@5.1.1/node_modules/execa/lib/error.js:60:11)
+16 error     at module.exports.sync (/Users/wujiayong/Library/pnpm/global/5/.pnpm/execa@5.1.1/node_modules/execa/index.js:194:17)
+16 error     at Object.execSync (/Users/wujiayong/Library/pnpm/global/5/.pnpm/@lerna+child-process@5.4.3/node_modules/@lerna/child-process/index.js:39:16)
+16 error     at updateRemote (/Users/wujiayong/Library/pnpm/global/5/.pnpm/@lerna+version@5.4.3/node_modules/@lerna/version/lib/is-behind-upstream.js:34:16)
+16 error     at isBehindUpstream (/Users/wujiayong/Library/pnpm/global/5/.pnpm/@lerna+version@5.4.3/node_modules/@lerna/version/lib/is-behind-upstream.js:16:3)
+16 error     at VersionCommand.initialize (/Users/wujiayong/Library/pnpm/global/5/.pnpm/@lerna+version@5.4.3/node_modules/@lerna/version/index.js:156:9)

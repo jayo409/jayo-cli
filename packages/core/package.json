@@ -1,19 +1,24 @@
 {
-  "name": "@jayo-cli/core",
-  "version": "1.0.4",
+  "name": "jayo-cli",
+  "version": "1.0.9",
   "description": "",
-  "main": "index.js",
+  "main": "./bin/index.js",
+  "type": "module",
   "bin": {
     "jayo-cli": "./bin/index.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "private": false,
   "keywords": [],
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "commander": "^11.1.0"
+    "@jayo-cli-suite/create-app": "file:../create-app",
+    "@jayo-cli-suite/utils": "file:../utils",
+    "commander": "^11.1.0",
+    "semver": "^7.5.4"
   },
-  "gitHead": "546cad8581dcb561b2dc691ff790bca02e8c23cf"
+  "gitHead": "8a14f0af3dcd0cc7ea838dc3ca325de82a0956dc"
 }

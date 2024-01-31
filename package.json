@@ -1,5 +1,4 @@
 {
-  "name": "jayo-cli",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,6 +8,7 @@
   "workspaces": [
     "packages/*"
   ],
+  "private": true,
   "keywords": [],
   "author": "",
   "license": "MIT",

@@ -1,8 +1,9 @@
 {
-  "name": "@jayo-cli/create-app",
-  "version": "1.0.4",
+  "name": "@jayo-cli-suite/create-app",
+  "version": "1.0.8",
   "description": "",
   "main": "./lib/index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -12,9 +13,13 @@
   "engines": {
     "node": ">=16.0.0"
   },
+  "private": false,
   "dependencies": {
+    "@jayo-cli-suite/utils": "file:../utils",
+    "@jayo-cli-suite/template-pack": "file:../template-pack",
     "chalk": "4.1.2",
+    "inquirer": "^9.2.12",
     "validate-npm-package-name": "^5.0.0"
   },
-  "gitHead": "546cad8581dcb561b2dc691ff790bca02e8c23cf"
+  "gitHead": "8a14f0af3dcd0cc7ea838dc3ca325de82a0956dc"
 }

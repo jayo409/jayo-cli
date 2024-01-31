@@ -1,5 +1,3 @@
 #!/usr/bin/env node
-
-const core = require('../lib')
-
-core()
+import core from '../lib/index.js';
+core();

@@ -1,13 +1,15 @@
 {
-  "name": "@jayo-cli/template-pack",
-  "version": "1.0.4",
+  "name": "@jayo-cli-suite/template-pack",
+  "version": "1.0.8",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
+  "private": false,
   "license": "MIT",
-  "gitHead": "546cad8581dcb561b2dc691ff790bca02e8c23cf"
+  "gitHead": "8a14f0af3dcd0cc7ea838dc3ca325de82a0956dc"
 }
